@@ -1,8 +1,8 @@
 import './App.css';
-import Navbar from './components/header/Navbar';
-import Home from './components/home/Home';
-import ProductList from './components/product/ProductList';
-import Footer from './components/footer/Footer';
+import Navbar from './components/header';
+import Home from './components/home';
+import ProductList from './components/productlist';
+import Footer from './components/footer';
 import { useState } from 'react';
 
 function App() {

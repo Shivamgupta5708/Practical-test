@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import axios from 'axios';
-import Product from './Product';
-import Filters from '../filter/Filter';
+import Product from '../product';
+import Filters from '../filter';
 import './ProductList.css';
 
 const ProductList = ({ setCartItemCounter, cartItemCounter, decrementCounter }) => {
