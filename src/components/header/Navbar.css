@@ -1,0 +1,88 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+  color: white;
+}
+
+.navbar-left .brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-right {
+  display: flex;
+  color: white;
+  gap: 5rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.cart-link {
+  position: relative;
+}
+
+.cart-count {
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 0.8rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 31px;
+  padding-right: 31px;
+  background-color: rgba(255, 255, 255, 0);
+  color: #333;
+  position: sticky;
+  top: 31px;
+  z-index: 1000;
+}
+
+.navbar-left h3 {
+  margin: 0;
+}
+
+.navbar-right a {
+  margin-left: 1rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar-right a:hover {
+  text-decoration: underline;
+}
+
+.navbar-right .fa-shopping-cart {
+  margin-right: 0.5rem;
+}
+
+.navbar.invert {
+  color: black;
+}
+
+.navbar.invert .navbar-left .brand {
+  color: black;
+}
+
+.navbar.invert .navbar-right {
+  color: black;
+}
+
+.navbar.invert .nav-link {
+  color: black;
+}

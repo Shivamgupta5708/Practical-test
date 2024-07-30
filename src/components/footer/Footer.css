@@ -1,0 +1,66 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #333;
+  color: white;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-center {
+  text-align: center;
+}
+
+.payment-logos {
+  margin-top: 1rem;
+}
+
+.payment-logos img {
+  margin: 0 0.5rem;
+  width: 50px;
+  height: auto;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.social-logos {
+  margin-top: 1rem;
+}
+
+.social-logos img {
+  margin: 0 0.5rem;
+  width: 30px;
+  height: auto;
+}

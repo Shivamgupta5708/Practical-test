@@ -1,0 +1,42 @@
+.product-list-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 80px;
+}
+
+.filters {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.filter-section {
+  margin-bottom: 1rem;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  flex: 3;
+}
+
+.pagination {
+  /* display: flex; */
+  justify-content: center;
+  margin-top: 1rem;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+}
+
+.pagination button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
